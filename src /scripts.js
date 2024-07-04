@@ -1,8 +1,8 @@
 function convert() {
-    let amount = document.getElementById("amount").value;
-    let from = document.getElementById("from").value;
-    let to = document.getElementById("to").value;
-    let result = (amount * to / from).toFixed(2);
+  let amount = document.getElementById("jumlah").value;
+  let from = document.getElementById("dari").value;
+  let to = document.getElementById("ke").value;
+  let result = ((amount * to) / from).toFixed(2);
 
-    document.getElementById("result").textContent = result;
+  document.getElementById("result").textContent = result;
 }
